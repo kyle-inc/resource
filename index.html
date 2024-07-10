@@ -92,7 +92,7 @@
     }
 
     .logonav {
-        width: 25%;
+        width: 20%;
         height: 100%;
         position: fixed;
         top: 0;
@@ -101,21 +101,21 @@
         background-color: #1f1240;
     }
 
-    .resouceslogo{
-        width: 24.80vw;
+    .resouceslogo {
+        width: 19.8vw;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
 
     .content {
-        margin-top: 9vh;
-        width: 75%;
+        width: 80%;
         float: right;
     }
 
-    .rescontainer {
+    .container1 {
         width: 90%;
+        padding-top: 15vh;
         display: block;
         margin: auto;
     }
@@ -143,28 +143,34 @@
         color: #FB542B;
     }
 
+    .kylelogopara {
+        position: fixed;
+        top: 88%;
+        width: 22%;
+        color: silver;
+        text-align: left;
+        padding: 40px 20px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    .kylelogo {
+        width: 10vh;
+    }
+
 </style>
 
 <body>
 
-    <div id="fadein"></div>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        window.onload = function () {
-            setTimeout(function () {
-                document.getElementById("fadein").remove();
-            }, 1000);
-        };
-    </script>
-
     <div class="logonav">
         <!-- <img class="KYLEsearchImage" src="https://kyle-inc.github.io/resource/kylesearch/KYLE Search Logo.png" alt="KYLEsearchLogo"> -->
-        <img src="https://kyle-inc.github.io/resource/resource/resource gif.gif" class="resouceslogo" />
+        <!-- <img src="https://kyle-inc.github.io/resource/resource/resource gif.gif" class="resouceslogo" /> -->
+        <img src="https://kyle-inc.github.io/resource/resource/resourcelogowhite.png" class="resouceslogo" />
     </div>
 
     <div class="content">
 
-        <div class="rescontainer">
+        <div class="container1">
 
             <h1 class="welcomeheading">Welcome to Resource</h1>
             <h2 class="welcomenote">So you finally found KYLE Resource.</h2>
@@ -173,6 +179,19 @@
 
         </div>
 
+        <!-- <div class="container1" style="margin-bottom: 40vh;">
+
+            <h1 class="welcomeheading">You must be thinking what is Resource</h1>
+            <h2 class="welcomenote">Resource is fast cloud delivery and deploy service which is seamlessly integrated with Caesura Cloud and comes in action to deploy web applications with high data transfer thus it segregates the data served by Caesura Cloud.</h2>
+
+        </div> -->
+
+    </div>
+
+    <div class="kylelogopara">
+        <a href="https://kyle-inc.github.io/kyle.com">
+            <img class="kylelogo" src="https://kyle-inc.github.io/resource/kyle/kylelogowhite.png">
+        </a>
     </div>
 
 </body>
